@@ -12,8 +12,6 @@ function rot13(str) {
     else {
       answer += str[i];
     }
-    
-    
   }
   answer = answer.toUpperCase();
   return console.log(answer);
